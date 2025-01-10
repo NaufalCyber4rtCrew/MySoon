@@ -14,9 +14,9 @@ footer.innerHTML = sender;
 footer.href = "https://www.facebook.com/IfanCyber4rt/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hai Istriku", "Aku punya pertanyaan nih, di jawab ya?", "question").then(function () {
-    Swal.fire("Jawab yang jujur ya, jangan bohong, aq tau!").then(function () {
-      Swal.fire("Awas, aku bisa tahu kalau kamu bohong!!", "", "error").then(function () {
+  Swal.fire("Hai Anakku", "Ayah punya pertanyaan nih, di jawab ya?", "question").then(function () {
+    Swal.fire("Jawab yang jujur ya, jangan bohong, ayah tau!").then(function () {
+      Swal.fire("Awas, ayah bisa tahu kalau kamu bohong!!", "", "error").then(function () {
         Swal.fire({
           title: 'Masukin nama kamu dulu, biar aku bisa sebutin dengan penuh cinta',
           input: 'text',
@@ -63,7 +63,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           });
                         });
                       } else if (result.isDenied) {
-                        Swal.fire('Jahat banget, nggak kangen sama suami sendiri?! 😢', '', 'error').then(function () {
+                        Swal.fire('Jahat banget, nggak kangen sama Ayah sendiri?! 😢', '', 'error').then(function () {
                           Swal.fire('Yaudah deh, bye! 😔');
                         });
                       }
